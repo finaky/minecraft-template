@@ -1,4 +1,4 @@
-import CreeperImage from "@/assets/styles/images/creeper_in_GREEN_hell.png";
+import CreeperImage from "@/assets/images/creeper_in_GREEN_hell.png";
 
 export const sliders = [
 	{
