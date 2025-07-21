@@ -6,7 +6,7 @@ type WhyUsCard = {
 
 export const WhyUsCard = ({ title, description, id }: WhyUsCard) => {
 	return (
-		<div className="w-[300px] h-[385px] mx-10 my-5">
+		<div className="w-[300px] h-[385px] mx-0 lg:mx-10 my-5">
 			<div className="w-[56px] h-[35px] bg-[#282828] text-center text-[20px] font-outfit rounded-tl-2xl">
 				{id}
 			</div>

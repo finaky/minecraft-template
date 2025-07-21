@@ -4,8 +4,8 @@ import Image from "next/image";
 export const Slider = () => {
 	return (
 		<section className="flex justify-center mt-16">
-			<div className="relative w-[1070px] h-[461px]">
-				<Image src={sliders[0].image} width={1070} height={421} alt="" />
+			<div className="relative w-[500px] lg:w-[1070px] h-[461px]">
+				<Image src={sliders[0].image} fill alt="" className="object-cover" />
 				<div className="absolute bottom-0 left-0 w-full h-[30px] bg-black z-10" />
 				<div className="absolute bottom-[30px] left-0 w-full h-[370px] bg-gradient-to-t from-black to-transparent z-10" />{" "}
 				<div className="absolute bottom-0 z-20 ml-10 font-poppins my-5 max-w-[85%]">

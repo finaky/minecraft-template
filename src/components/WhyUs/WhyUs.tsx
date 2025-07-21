@@ -3,7 +3,7 @@ import { WhyUsCard } from "./WhyUsCard";
 
 export const WhyUs = () => {
 	return (
-		<section className="grid grid-cols-3 mt-30 w-[1068px] relative left-1/2 -translate-x-1/2">
+		<section className="grid grid-cols-1 lg:grid-cols-3 mt-30 w-full max-w-[320px] lg:max-w-[1068px] relative left-1/2 -translate-x-1/2">
 			{whyUs.map((w) => {
 				return (
 					<WhyUsCard
