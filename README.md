@@ -4,7 +4,7 @@ Minecraft Template is a modern and flexible template for Minecraft server websit
 
 ## Screenshots
 
-[Image](images/image.png)z
+![Strona Główna](images/image.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
