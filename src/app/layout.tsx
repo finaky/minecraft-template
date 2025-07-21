@@ -15,7 +15,7 @@ const poppins = Poppins({
 
 const outfit = Outfit({
 	variable: "--font-outfit",
-	weight: ["800"],
+	weight: ["300", "400", "800"],
 	style: "normal",
 });
 

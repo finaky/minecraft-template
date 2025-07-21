@@ -11,7 +11,7 @@ export const Header = () => {
 					</h2>
 				</div>
 
-				<HeaderNavigation />
+				<HeaderNavigation className=" right-[160px]" />
 			</div>
 		</header>
 	);
