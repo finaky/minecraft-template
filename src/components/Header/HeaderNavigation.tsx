@@ -3,7 +3,7 @@ import { HeaderOption } from "./HeaderOption";
 
 export const HeaderNavigation = ({ className }: { className?: string }) => {
 	return (
-		<ul className={`hidden lg:flex  absolute  ${className}`}>
+		<ul className={`flex absolute  ${className}`}>
 			{options.map((option) => {
 				return (
 					<HeaderOption href={option.href} key={option.id}>

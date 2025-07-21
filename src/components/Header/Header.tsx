@@ -1,6 +1,12 @@
+"use client";
+import { useState } from "react";
+import { HeaderMobileMenu } from "./HeaderMobileMenu";
 import { HeaderNavigation } from "./HeaderNavigation";
+import { MenuToggle } from "./MenuToggle";
 
 export const Header = () => {
+	const [isMenu, setIsMenu] = useState<boolean>(false);
+
 	return (
 		<header>
 			<div className="flex items-center w-full h-[122px] bg-black/50 border-white/20 border-b-4 z-100 relative">
@@ -11,13 +17,29 @@ export const Header = () => {
 					</h2>
 				</div>
 
-				<div className="absolute lg:hidden right-5 ">
-					<div className="w-8 h-[2px] bg-white/80 mt-2"></div>
-					<div className="w-8 h-[2px] bg-white/80 mt-2"></div>
-					<div className="w-8 h-[2px] bg-white/80 mt-2"></div>
+				<div
+					className="absolute lg:hidden right-15 cursor-pointer"
+					onClick={() => setIsMenu(!isMenu)}
+				>
+					<MenuToggle
+						isMenu={isMenu}
+						activeClassName={"rotate-45"}
+						inactiveClassName={"-top-2"}
+					/>
+					<MenuToggle
+						isMenu={isMenu}
+						activeClassName={"-rotate-45"}
+						inactiveClassName={"top-0"}
+					/>
+					<MenuToggle
+						isMenu={isMenu}
+						activeClassName={"rotate-45 opacity-0"}
+						inactiveClassName={"top-2"}
+					/>
 				</div>
 
-				<HeaderNavigation className="right-[160px]" />
+				<HeaderNavigation className="max-lg:hidden right-[160px]" />
+				{isMenu && <HeaderMobileMenu />}
 			</div>
 		</header>
 	);
