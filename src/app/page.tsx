@@ -1,11 +1,5 @@
-import { Header } from "@/components/Header/Header";
-import { Slider } from "@/components/Slider/Slider";
+import IndexPageContent from "@/components/IndexPageContent";
 
 export default function Home() {
-	return (
-		<>
-			<Header />
-			<Slider />
-		</>
-	);
+	return <IndexPageContent />;
 }

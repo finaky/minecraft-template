@@ -1,4 +1,4 @@
-import { options } from "@/constants/navigation";
+import { options } from "@/data/navigation";
 import { HeaderOption } from "./HeaderOption";
 
 export const HeaderNavigation = () => {
