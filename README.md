@@ -1,3 +1,11 @@
+## Minecraft Template
+
+Minecraft Template is a modern and flexible template for Minecraft server websites.
+
+## Screenshots
+
+[Image](images/image.png)z
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
