@@ -13,12 +13,14 @@ const poppins = Poppins({
 	variable: "--font-poppins",
 	weight: ["400", "700"],
 	style: "normal",
+	subsets: ["devanagari"],
 });
 
 const outfit = Outfit({
 	variable: "--font-outfit",
 	weight: ["300", "400", "800"],
 	style: "normal",
+	subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
