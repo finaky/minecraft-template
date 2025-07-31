@@ -11,10 +11,10 @@ export const HeaderOption = ({
 	href: string;
 }) => {
 	const pathname = usePathname();
-	const color = pathname === href ? "text-[#00AA00]" : "text-white";
+	const color = pathname === href ? "text-blue-300 font-bold" : "text-white";
 
 	return (
-		<li className={`mx-2 font-outfit text-[16px] ${color}`}>
+		<li className={`mx-2 font-outfit text-[20px] ${color}`}>
 			<Link href={href}>{children?.toString().toUpperCase()}</Link>
 		</li>
 	);

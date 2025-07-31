@@ -11,7 +11,7 @@ export const WhyUsCard = ({ title, description, id }: WhyUsCard) => {
 				{id}
 			</div>
 
-			<div className="w-full h-[350px] bg-[#000]/40 border-[#3D3D3D]/50 border-5">
+			<div className="w-full h-[350px] bg-[#000]/80 border-[#3D3D3D]/50 border-5">
 				<div className="my-5 mx-5 font-poppins">
 					<p className="text-[20px] font-[700]">{title}</p>
 					<p className="text-[14px] text-white/60">{description}</p>
